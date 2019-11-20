@@ -1,11 +1,11 @@
 <HTML>
 <HEAD>
-<TITLE>Hiperfizica by Alexandruz3</TITLE>
+<TITLE>Manual Fizica 11 by Alexandruz3</TITLE>
 
 <script language=javascript>
     var rev = "fwd";
     function titlebar(val){
-        var msg  = "Hiperfizica by Alexandruz3";
+        var msg  = "Manual Fizica by Alexandruz3";
         var res = " ";
         var speed = 100;
         var pos = val;
@@ -42,9 +42,19 @@
 
 </HEAD>
 
-<BODY>
+<FRAMESET cols="660,*" border=0>
 
-<center><IMG src="html/UCG.gif" width=1300 hspace=0></center>
+  <FRAMESET rows="48, *">
+    <FRAME name="top_left" src="html/top_left.html" scrolling=no marginheight=10 marginwidth=10>
+    <FRAME name="pageframe" src="html/left.html" scrolling=yes marginwidth=20 marginheight=20>
+  </FRAMESET>
+
+  <FRAMESET rows="48, *">
+    <FRAME name="top_right" src="html/top_right.html" scrolling=no>
+    <FRAME name="menuframe" src="html/right.html">     
+  </FRAMESET>
+
+</FRAMESET>
 
 </HTML>
 
